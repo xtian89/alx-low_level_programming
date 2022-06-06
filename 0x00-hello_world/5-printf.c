@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- *  *   * main - Prints out a string to stdout.
+ *  *   * main - Entry point
  *   *   *  
  *    *   *Return: Always 0 (success)
  *     **/
