@@ -5,7 +5,7 @@
  * @n: integer parameter
  */
 
-void print_line(int n)
+void print_diagonal(int n)
 {
 	int x, i;
 
