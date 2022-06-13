@@ -3,6 +3,7 @@
 /**
  * print_rev -> prints a string, in reverse
  * fcounter -> count to end, and count back
+ * @s: str input
  * Return: string in reverse
  */
 void print_rev(char *s)
