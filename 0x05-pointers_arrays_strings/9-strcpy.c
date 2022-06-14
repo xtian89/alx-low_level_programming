@@ -1,21 +1,13 @@
 #include "main.h"
-
 #include <stdio.h>
 
 /**
- *
- *  * _strcpy - check the code for Holberton School students.
- *
- *   * @dest: pointer char type
- *
- *    * @src: pointer char type
- *
- *     * Return: Always 0.
- *
- *      */
-
+ * _strcpy - check the code for Holberton School students.
+ * @dest: pointer char type
+ * @src: pointer char type
+ * Return: Always 0.
+ */
 char *_strcpy(char *dest, char *src)
-
 {
 
 	int i;
