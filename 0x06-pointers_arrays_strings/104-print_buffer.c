@@ -5,7 +5,7 @@
  * print_buffer -> Prints a buffer
  * @b: char
  * @size: int
- * Return:void
+ * Return: void
  */
 
 void print_buffer(char *b, int size)
@@ -20,14 +20,11 @@ void print_buffer(char *b, int size)
 		{
 			if ((i + x) >= size)
 				printf("  ");
-
 			else
 				printf("%02x", *(b + i + x));
-
 			if ((i % 2) != 0 && i != 0)
 				printf(" ");
 		}
-		
 		for (i = 0; i < 10; i++)
 		{
 			if ((i + x) >= size)
@@ -40,7 +37,6 @@ void print_buffer(char *b, int size)
 			else
 				printf(".");
 		}
-		
 		if (x >= size)
 			continue;
 
