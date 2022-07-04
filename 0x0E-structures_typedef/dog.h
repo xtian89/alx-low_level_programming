@@ -10,14 +10,10 @@
 
 struct dog
 {
-char *name;
-float age;
-char *owner;
-}
-
-/**
- * dog_t - typedef for dog
- */
+	char *name;
+	float age;
+	char *owner;
+};
 
 typedef struct dog dog_t;
 void free_dog(dog_t *d);
