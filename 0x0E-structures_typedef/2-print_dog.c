@@ -1,10 +1,11 @@
 #include "dog.h"
-#include <stddef.h>
+#include <stdlib.h>
 #include <stdio.h>
 
 /**
  * print_dog - Prints attributes of `d` dog. Prints "(nil)" if attribute has no value
  * @d: Pointer to instance of struct dog
+ * Return: Nothing
  */
 
 void print_dog(struct dog *d)
